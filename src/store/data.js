@@ -169,7 +169,7 @@ export const acsiyadata = [
         price2: '50,50 ₽',
         name: 'Сосиски вареные МЯСНАЯ ИСТОРИЯ Молочные и С сыро...',
         button: 'В корзину',
-    }
+    },
     {
         id: 5,
         miqdor: 1,
