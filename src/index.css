@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .container {
+    @apply max-w-['1440px'] mx-auto px-5
+  }
+}
+
+*{
+  scroll-behavior: smooth;
+}
+.swiper-pagination-bullet {
+  background-color: rgb(255, 0, 0);
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: -5px -5px 10px orange;
+  background-color: rgb(187, 186, 186);
+  
+
+}
+
+body::-webkit-scrollbar-thumb {
+  box-shadow: 0px 0px 10px rgb(7, 207, 247);
+  background-color: rgba(255, 136, 0, 0.8);
+  border-radius: 200px;
+}
+
+.swiper-button-prev::after {
+  display: none;
+}
+
+.swiper-button-prev::before {
+  display: none;
+}
+
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-next::before {
+  display: none;
+}
+.swiper-button-prev {
+  font-size: 30px;
+}
+.swiper-button-next {
+  font-size: 30px;
+}
+/* .block {
+  position: absolute;
+  top: 0px;
+  z-index: 2;
+  right: 90px;
+  color: #fff;
+  width: 100px;
+  height: 1px;
+  right: 0;
+} */
+
+.swiper-navigation-bullet {
+  background-color: red;
+  opacity: 1;
+}
